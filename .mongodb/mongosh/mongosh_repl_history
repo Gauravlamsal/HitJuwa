@@ -1,0 +1,88 @@
+db.settings.insertOne({name:"[FiversCan] Debug"}, {$set:{value:"true"}});
+db.settings.insertOne({name:"[FiversCan] API URL"}, {$set:{value:"https://api.nexusggreu.com"}});
+db.settings.updateOne({name:"[FiversCan] API URL"}, {$set:{value:"https://api.nexusggreu.com"}});
+db.settings.updateOne({name:"[FiversCan] Agent Token"}, {$set:{value:"073bef349a1ee524642cc32734ba9db5"}});
+db.settings.updateOne({name:"[FiversCan] Agent Token Demo"}, {$set:{value:"81cfbef68d12226d819e0ca37ed9851e"}});
+db.settings.insertOne({name:"[FiversCan] Agent Code Demo"}, {$set:{value:"jackpotparty_demo"}});
+db.settings.updateOne({name:"[FiversCan] Agent Code Demo"}, {$set:{value:"jackpotparty_demo"}});
+db.settings.updateOne({name:"[FiversCan] Agent Code"}, {$set:{value:"jackpotparty"}});
+db.settings.updateOne({name:"[FiversCan] Agent Code Demo"}, {$set:{value:"jackpotparty_demo"}});
+use hitjuwa
+db.settings.updateOne({name:"currencies"}, {$set:{value:'["commerce_bitcoin"]'}}); 
+db.users.updateOne({name:"admin"}, {$set:{roles:"[{\"id\":\"*\"}]"}}) 
+use hitjuwa
+show databases
+show dbs
+show db
+db.users.find()
+use hitjuwa
+db.users.find()
+use hitjuwa
+db.users.find()
+use hitjuwa
+db.users.find()
+use hitjuwa
+db.settings.find({name:"[FiversCan] API URL"})
+ls
+use hitjuwa
+db.users.find()
+ls
+use hitjuwa
+db.settings.updateOne({name:"[FiversCan] Debug"}, {$set:{value:"true"}});
+db.settings.updateOne({name:"[FiversCan] Agent Code Demo"}, {$set:{value:"jackpotparty_demo"}});
+db.settings.updateOne({name:"[FiversCan] Agent Code"}, {$set:{value:"jackpotparty"}});
+db.settings.updateOne({name:"[FiversCan] Agent Token Demo"}, {$set:{value:"81cfbef68d12226d819e0ca37ed9851e"}});
+db.settings.updateOne({name:"[FiversCan] Agent Token"}, {$set:{value:"073bef349a1ee524642cc32734ba9db5"}});
+use hitjuwa
+db.users.updateOne({name:"admin"}, {$set:{roles:"[{\"id\":\"*\"}]"}})
+db.settings.updateOne({name:"currencies"}, {$set:{value:'["commerce_bitcoin"]'}}); 
+db.users.find()
+fb.users.find * fb.users.find()
+use hitjuwa
+show collections
+db.users.find()
+use hitjuwa
+ls
+db.roles.find()
+ls
+use hitjuwa
+db.settings.updateOne({name:"[FiversCan] Debug"},{$set:{value:"true"}})
+use hitjuwa
+db.settings.updateOne({name:"[FiversCan] Debug"},{$set:{value:true}})
+use hitjuwa
+db.settings.updateOne({name:"[FiversCan] Agent Token"},{$set:{value:"9fb3ed43ffce92cae0f68b3c71900815"}})
+db.settings.updateOne({name:"[FiversCan] Agent Code"},{$set:{value:"jackpotparty"}})
+db.settings.find({name:"[FiversCan] Agent Code"})
+db.settings.find({name:"[FiversCan] Agent Code"} db.settings.find({name:"[FiversCan] Agent Code"})
+db.settings.find({name:"[FiversCan] AGENT CODE"})
+use hitjuwa
+db.settings.updateOne({name:"[FiversCan] API URL"},{$set:{value:"https://api.fiverscan.com"}})
+db.settings.find({name:"[FiversCan] API URL"})
+use hitjuwa
+db.roles.find()
+use hitjuwa
+db.roles.find()
+use hitjuwa
+db.users.updateOne({name:"admin2"}, {$set:{roles:"[{\"id\":\"*\"}]"}})
+use hitjuwa
+db.settings.updateOne({name:"currencies"}, {$set:{value:'["commerce_bitcoin"]'}});
+use hitjuwa
+db.users.updateOne({name:"admin2"}, {$set:{roles:"[{\"id\":\"*\"}]"}})
+use hitjuwa
+db.settings.updateOne({name:"[OpenGraph] Title"},{$set:{value:"HITJUWA.COM"}})
+use hitjuwa
+show dbs
+db.currencies.find({})
+show collections
+ls
+use hitjuwa
+show dbs
+db.settings.updateOne({name:"[FiversCan] API URL"},{$set:{value:"https://api.fiverscan.com"}})
+db.settings.updateOne({name:"[FiversCan] Agent Token"},{$set:{value:"9fb3ed43ffce92cae0f68b3c71900815"}})
+db.settings.updateOne({name:"[FiversCan] Agent Code"},{$set:{value:"jackpotparty"}})
+use hitjuwa
+db.users.updateOne({name:"admin"}, {$set:{roles:"[{\"id\":\"*\"}]"}})
+db.users.updateOne({name:"hitjuwa"}, {$set:{roles:"[{\"id\":\"*\"}]"}})
+use hitjuwa
+db.settings.updateOne({name:"currencies"}, {$set:{value:'["commerce_bitcoin"]'}});
+use hitjuwa

@@ -1,0 +1,22 @@
+status: 200
+date: Thu, 03 Oct 2024 17:40:12 GMT
+server: gunicorn
+x-powered-by: Zope (www.zope.org), Python (www.python.org)
+content-security-policy: frame-ancestors 'self';
+content-type: application/json
+strict-transport-security: max-age=15552000
+vary: Accept,Accept-Encoding
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-launchpad-revision: 6341c735b243a0768c3cb66edf85737937cab327
+x-lazr-notifications: []
+x-xss-protection: 1; mode=block
+x-vcs-revision: 6341c735b243a0768c3cb66edf85737937cab327
+x-request-id: 0ad68dc7-d7a0-455b-b88f-b85eeaa51143
+content-length: 1723
+-content-encoding: gzip
+content-location: https://api.launchpad.net/devel/~ondrej?name=%22nginx%22&ws.op=getPPAByName
+-varied-accept: application/json
+-varied-accept-encoding: gzip, deflate
+
+{"self_link": "https://api.launchpad.net/devel/~ondrej/+archive/ubuntu/nginx", "web_link": "https://launchpad.net/~ondrej/+archive/ubuntu/nginx", "resource_type_link": "https://api.launchpad.net/devel/#archive", "owner_link": "https://api.launchpad.net/devel/~ondrej", "name": "nginx", "displayname": "PPA for NGINX Stable with HTTP/2", "reference": "~ondrej/ubuntu/nginx", "distribution_link": "https://api.launchpad.net/devel/ubuntu", "private": false, "suppress_subscription_notifications": false, "dependencies_collection_link": "https://api.launchpad.net/devel/~ondrej/+archive/ubuntu/nginx/dependencies", "description": "This branch follows latest NGINX Stable packages compiled against latest OpenSSL for HTTP/2 and TLS 1.3 support.\n\nBUGS\u0026FEATURES: This PPA now has a issue tracker: https://deb.sury.org/#bug-reporting\n\nPLEASE READ: If you like my work and want to give me a little motivation, please consider donating: https://donate.sury.org", "signing_key_fingerprint": "B8DC7E53946656EFBCE4C1DD71DAEAAB4AD4CAB6", "require_virtualized": true, "build_debug_symbols": true, "publish_debug_symbols": true, "permit_obsolete_series_uploads": false, "authorized_size": 2048, "status": "Active", "external_dependencies": null, "metadata_overrides": null, "processors_collection_link": "https://api.launchpad.net/devel/~ondrej/+archive/ubuntu/nginx/processors", "enabled_restricted_processors_collection_link": "https://api.launchpad.net/devel/~ondrej/+archive/ubuntu/nginx/enabled_restricted_processors", "publishing_method": "Local", "repository_format": "Debian", "publish": true, "relative_build_score": 0, "http_etag": "\"3f80a84711c42e0c7f798d3c7fb5a72a3b1dbd22-b2da690894f1cbd2191aabec0c20311df85d8934\""}

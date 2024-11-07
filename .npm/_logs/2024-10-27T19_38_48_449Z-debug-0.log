@@ -1,0 +1,20 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.7.0
+2 info using node@v18.20.4
+3 silly config:load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config:load:file:/var/www/html/@web/.npmrc
+5 silly config:load:file:/root/.npmrc
+6 silly config:load:file:/usr/etc/npmrc
+7 verbose title npm run build
+8 verbose argv "run" "build"
+9 verbose logfile logs-max:10 dir:/root/.npm/_logs/2024-10-27T19_38_48_449Z-
+10 verbose logfile /root/.npm/_logs/2024-10-27T19_38_48_449Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/npm 407ms
+13 notice
+13 notice New [33mminor[39m version of npm available! [33m10.7.0[39m -> [34m10.9.0[39m
+13 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v10.9.0[39m
+13 notice To update run: [4mnpm install -g npm@10.9.0[24m
+13 notice  { force: true, [Symbol(proc-log.meta)]: true }
+14 verbose exit 0
+15 info ok

@@ -1,0 +1,22 @@
+status: 200
+date: Thu, 03 Oct 2024 17:40:45 GMT
+server: gunicorn
+x-powered-by: Zope (www.zope.org), Python (www.python.org)
+content-security-policy: frame-ancestors 'self';
+content-type: application/json
+strict-transport-security: max-age=15552000
+vary: Accept,Accept-Encoding
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-launchpad-revision: 6341c735b243a0768c3cb66edf85737937cab327
+x-lazr-notifications: []
+x-xss-protection: 1; mode=block
+x-vcs-revision: 6341c735b243a0768c3cb66edf85737937cab327
+x-request-id: ecd03bf9-495d-4d3a-8039-12ab42e830d0
+content-length: 2465
+-content-encoding: gzip
+content-location: https://api.launchpad.net/devel/~ondrej?name=%22php%22&ws.op=getPPAByName
+-varied-accept: application/json
+-varied-accept-encoding: gzip, deflate
+
+{"self_link": "https://api.launchpad.net/devel/~ondrej/+archive/ubuntu/php", "web_link": "https://launchpad.net/~ondrej/+archive/ubuntu/php", "resource_type_link": "https://api.launchpad.net/devel/#archive", "owner_link": "https://api.launchpad.net/devel/~ondrej", "name": "php", "displayname": "***** The main PPA for supported PHP versions with many PECL extensions *****", "reference": "~ondrej/ubuntu/php", "distribution_link": "https://api.launchpad.net/devel/ubuntu", "private": false, "suppress_subscription_notifications": false, "dependencies_collection_link": "https://api.launchpad.net/devel/~ondrej/+archive/ubuntu/php/dependencies", "description": "Co-installable PHP versions: PHP 5.6, PHP 7.x, PHP 8.x and most requested extensions are included. Only Supported Ubuntu Releases (https://wiki.ubuntu.com/Releases) are provided.\n\nDebian oldstable and stable packages are provided as well: https://deb.sury.org/#debian-dpa\n\nYou can get more information about the packages at https://deb.sury.org\n\nBUGS\u0026FEATURES: This PPA now has a issue tracker:\nhttps://deb.sury.org/#bug-reporting\n\nCAVEATS:\n1. If you are using php-gearman, you need to add ppa:ondrej/pkg-gearman\n2. If you are using apache2, you are advised to add ppa:ondrej/apache2\n3. If you are using nginx, you are advised to add ppa:ondrej/nginx-mainline\n\u00a0\u00a0\u00a0or ppa:ondrej/nginx\n\nPLEASE READ: If you like my work and want to give me a little motivation, please consider donating regularly: https://donate.sury.org/\n\nWARNING: add-apt-repository is broken with non-UTF-8 locales, see\nhttps://github.com/oerdnj/deb.sury.org/issues/56 for workaround:\n\n# LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php", "signing_key_fingerprint": "B8DC7E53946656EFBCE4C1DD71DAEAAB4AD4CAB6", "require_virtualized": true, "build_debug_symbols": true, "publish_debug_symbols": true, "permit_obsolete_series_uploads": false, "authorized_size": 65536, "status": "Active", "external_dependencies": null, "metadata_overrides": null, "processors_collection_link": "https://api.launchpad.net/devel/~ondrej/+archive/ubuntu/php/processors", "enabled_restricted_processors_collection_link": "https://api.launchpad.net/devel/~ondrej/+archive/ubuntu/php/enabled_restricted_processors", "publishing_method": "Local", "repository_format": "Debian", "publish": true, "relative_build_score": 0, "http_etag": "\"fef85e4e203d7ec42857e2272bb6f9389ee64751-4685a450a8d2f2072e738524abc112169c378837\""}
